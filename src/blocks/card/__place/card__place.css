@@ -5,10 +5,12 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
-    line-height: 61.176%; /* 61.176% */
+    line-height: 1; /* 61.176% */
     border-radius: 4px;
     background-color: #14E4F4;
     padding-inline: 8px;
     padding-block: 11px;
     max-inline-size: fit-content;
+    margin-block-end: 20px;
+
 }

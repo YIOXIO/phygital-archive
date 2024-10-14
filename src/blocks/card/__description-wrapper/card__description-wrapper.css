@@ -3,6 +3,6 @@
     grid-column: span 2;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s linear;
+    transition: max-height 0.3s, background-color .5s linear;
     background-color: transparent;
 }

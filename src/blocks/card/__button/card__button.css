@@ -1,25 +1,48 @@
 .card__button{
-    background-image: url('../../../svg/arrow.svg');
-    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: #FFF;
-    block-size: 80px;
-    inline-size: 80px;
-    position: absolute;
-    bottom: 25px;
-    right: 29px;
-    cursor: pointer;
-    transition: transform .3s, box-shadow .25s linear;
-    border: none;
+    position: relative;
+    inline-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: inherit;
+    overflow: hidden;
+    transition: border-radius .3s, box-shadow .25s linear;
+    border: 1px solid rgba(0, 0, 0, 0.394);
+    border-radius: 0 0 40px 40px;
+
+}
+.card__button::after{
+    content: url('../../../svg/arrow.svg');
+    display: block;
+    block-size: 100%;
+    transition: transform .3s linear;
 
 }
 
-.card__button:hover{
-    box-shadow: 0 0 20px #FFF;
-    transition: transform .3s, box-shadow .15s linear;
-    
-}
 
+
+
+ @media (width >= 1024px){
+    .card__button{
+        position: absolute;
+        bottom: 25px;
+        right: 29px;
+        border-radius: 50px;
+        block-size: 80px;
+        inline-size: 80px;
+        position: absolute;
+        bottom: 25px;
+        right: 29px;
+        cursor: pointer;
+    }
+    .card__button:hover{
+        box-shadow: 0 0 20px #FFF;
+        transition: transform .3s, box-shadow .15s linear;
+        
+    }
+ }

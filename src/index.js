@@ -33,6 +33,7 @@ import './index.css'
                 const cardImg = card.querySelector('.card__img');
                 const cardInfo = card.querySelector('.card__info');
 
+
     
                 descriptionWrapper.classList.toggle('card__description-wrapper_appear');
                 button.classList.toggle('card__button_is-active');

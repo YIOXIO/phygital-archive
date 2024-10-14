@@ -1,6 +1,17 @@
 .card__button_is-active{
-    transform: rotate(180deg);
     box-shadow: 0 0 20px #FFF;
-    transition: transform .3s, box-shadow .15s linear;
+    transition: border-radius .3s,  box-shadow .15s linear;
+    border-radius: 0 0 0 0; 
+}
 
+.card__button_is-active::after{
+    transform: rotate(180deg);
+    transition: transform .3s linear;
+
+}
+
+@media (width >= 1024px){
+    .card__button_is-active{
+        border-radius: 50px;
+    }
 }

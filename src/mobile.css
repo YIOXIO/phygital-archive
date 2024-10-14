@@ -1,0 +1,17 @@
+.card__img {
+    border-radius: 40px 40px 0 0;
+}
+
+
+.card {
+    column-gap: 5px;
+    display: flex;
+    margin-block-end: 72px;
+    flex-direction: column;
+}
+
+.card__info {
+
+    border-radius: 0 0 40px 40px;
+   
+}

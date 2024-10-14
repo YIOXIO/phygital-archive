@@ -2,7 +2,8 @@
   "name": "eco-project",
   "version": "1.0.0",
   "repository": {
-    "url": ""
+    "url": "git+https://github.com/YIOXIO/phygital-archive.git"
+
   },
   "description": "",
   "main": "index.js",

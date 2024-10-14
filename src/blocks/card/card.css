@@ -11,9 +11,31 @@
 @import './__button/_is-active/card__button_is-active.css';
 @import './__img/_is-active/card__img_is-active.css';
 @import './__info/_is-active/card__info_is-active.css';
+@import './__info-wrapper/card__info-wrapper.css';
+
+
+
 .card{
     display: grid;
-    grid-template-columns: 58% 1fr;
     column-gap: 5px;
     margin-block-end: 72px;
+
 }
+
+.card {
+    column-gap: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-block-end: 72px;
+}
+
+
+@media (width >= 1024px){
+    .card{
+        display: grid;
+        grid-template-columns: 58% 1fr;
+
+
+    }
+}
+

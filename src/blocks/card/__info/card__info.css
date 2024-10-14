@@ -5,11 +5,17 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    padding-block: 71px 0;
-    padding-inline: 35px;
+    padding-block: clamp(1.25rem, -0.319rem + 5.285vw, 4.438rem) 0;
     position: relative;
-    border-radius: 0 40px 40px 0;
+    border-radius: 0 0 40px 40px;
     grid-column:2;
     transition: border-radius .3s linear;
 
+}
+
+@media (width >= 1024px){
+    .card__info{
+        border-radius: 0 40px 40px 0;
+        padding-block-end: clamp(7.5rem, 11.192rem + -12.435vw, 0rem);
+    }
 }

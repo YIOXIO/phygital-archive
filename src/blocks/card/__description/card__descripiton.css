@@ -1,7 +1,7 @@
 .card__description{
     color: rgba(29, 31, 32, 0.80);
     font-family: Gotham Pro;
-    font-size: 24px;
+    font-size: clamp(1rem, 0.754rem + 0.829vw, 1.5rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
