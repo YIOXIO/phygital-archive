@@ -1,6 +1,6 @@
 .card__description-inner{
     background-color: #FFF;
     border-radius: 30px;
-    padding-inline: 1.9791vw 2.08333vw;
+    padding-inline: clamp(1.25rem, 0.696rem + 1.865vw, 2.375rem) clamp(1.25rem, 0.635rem + 2.073vw, 2.5rem);
     padding-block: 38px;
 }
