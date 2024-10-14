@@ -1,0 +1,7 @@
+.card__description-inner{
+    background-color: #FFF;
+    border-radius: 30px;
+    padding-inline: 38px 40px;
+    padding-block: 38px;
+    transition: opacity 1s linear;
+}

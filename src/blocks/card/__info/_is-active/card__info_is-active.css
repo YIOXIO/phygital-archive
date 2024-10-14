@@ -1,0 +1,5 @@
+.card__info_is-active{
+    border-radius: 0 40px 0 0;
+    transition: border-radius .3s linear;
+
+}

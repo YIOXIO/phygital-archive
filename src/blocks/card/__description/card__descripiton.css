@@ -1,0 +1,9 @@
+.card__description{
+    color: rgba(29, 31, 32, 0.80);
+    font-family: Gotham Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-block-end: 20px;
+}

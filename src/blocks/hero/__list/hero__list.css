@@ -1,0 +1,6 @@
+.hero__list{
+    display: flex;
+    padding-block-start: 57px;
+    gap: 14px;
+    margin-block-end: clamp(9.375rem, 7.232rem + 10.714vw, 16.875rem);
+}

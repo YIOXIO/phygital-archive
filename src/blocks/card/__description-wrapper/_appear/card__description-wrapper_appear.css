@@ -1,0 +1,8 @@
+.card__description-wrapper_appear {
+    max-height: 100%;
+    background-color: #EEF1F9;
+    padding-inline: 38px 40px;
+    padding-block: 38px;
+    transition: max-height   0.3s linear;
+
+}

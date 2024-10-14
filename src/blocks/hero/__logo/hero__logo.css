@@ -1,0 +1,10 @@
+.hero__logo{
+    max-inline-size: 100px;
+    object-fit: contain;
+    inline-size: 100%;
+    
+}
+
+.hero__list>li:nth-child(1)>.hero__logo{
+    max-inline-size: 75px;
+}

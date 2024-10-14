@@ -1,0 +1,18 @@
+.card__date{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 50% */
+    max-inline-size: 222px;
+}
+
+.card__date::after{
+    content: '';
+    block-size: 5px;
+    inline-size: 100%;
+    display: block;
+    background-color: #FFF;
+    margin-block:34px 26px ;
+}

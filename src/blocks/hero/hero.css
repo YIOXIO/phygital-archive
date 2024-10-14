@@ -1,0 +1,12 @@
+@import './__list/hero__list.css';
+@import './__logo/hero__logo.css';
+@import './__title/hero__title.css';
+
+.hero{
+    background-image: url('../../img/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-block-end: clamp(9.813rem, 5.348rem + 22.321vw, 25.438rem);
+    margin-block-end: clamp(2.813rem, 1.384rem + 7.143vw, 7.813rem);
+}

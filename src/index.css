@@ -1,0 +1,36 @@
+/* Общие стили */
+@import './vendor/normalize.css';
+@import './styles/globals.css';
+@import './vendor/fonts/fonts.css';
+
+
+@import './blocks/container/container.css';
+@import './blocks/section-title/section-title.css';
+
+/* Стили для секции Hero */
+@import './blocks/hero/hero.css';
+
+
+@import './blocks/tabs/tabs.css';
+
+@import './blocks/card/card.css';
+
+@import './blocks/footer/footer.css';
+
+
+.tabs__button {
+    cursor: pointer;
+}
+
+
+.tabs__pane {
+    display: none;
+}
+
+.tabs__pane_is-active {
+    display: block;
+}
+
+.content{
+    margin-block-end: 182px;
+}

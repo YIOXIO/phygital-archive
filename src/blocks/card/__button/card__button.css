@@ -1,0 +1,25 @@
+.card__button{
+    background-image: url('../../../svg/arrow.svg');
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFF;
+    block-size: 80px;
+    inline-size: 80px;
+    position: absolute;
+    bottom: 25px;
+    right: 29px;
+    cursor: pointer;
+    transition: transform .3s, box-shadow .25s linear;
+    border: none;
+
+}
+
+.card__button:hover{
+    box-shadow: 0 0 20px #FFF;
+    transition: transform .3s, box-shadow .15s linear;
+    
+}
+

@@ -1,0 +1,12 @@
+.card__title{
+    color: #FFF;
+    font-family: Unbounded;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 120% */
+    text-transform: uppercase;
+    letter-spacing: -0.4px;
+    margin-block-end: 20px;
+}
+

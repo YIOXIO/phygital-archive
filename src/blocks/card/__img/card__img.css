@@ -1,0 +1,9 @@
+.card__img{
+    max-inline-size: 832px;
+    max-block-size: 492px;
+    inline-size: 100%;
+    object-fit: cover;
+    border-radius: 40px 0 0 40px ;
+    transition: border-radius .3s linear;
+
+}   

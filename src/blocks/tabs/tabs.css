@@ -1,0 +1,20 @@
+@import './__button/tabs__button.css';
+@import './__button/_is-active/tabs__button_is-active.css';
+
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    max-inline-size: 420px;
+    gap: 20px;
+
+}
+
+.tabs > li{
+    flex-grow: 1;
+}
+
+@media (width >= 425px){
+    .tabs{
+        gap: 0;
+    }
+}

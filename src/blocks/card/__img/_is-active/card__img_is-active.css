@@ -1,0 +1,4 @@
+.card__img_is-active{
+    border-radius: 40px 0 0 0;
+    transition: border-radius .3s linear;
+}

@@ -1,0 +1,19 @@
+@import './__date/card__date.css';
+@import './__img/card__img.css';
+@import './__info/card__info.css';
+@import './__place/card__place.css';
+@import './__title/card__title.css';
+@import './__button/card__button.css';
+@import './__description-wrapper/card__description-wrapper.css';
+@import './__description/card__descripiton.css';
+@import './__description-inner/card__description-inner.css';
+@import './__description-wrapper/_appear/card__description-wrapper_appear.css';
+@import './__button/_is-active/card__button_is-active.css';
+@import './__img/_is-active/card__img_is-active.css';
+@import './__info/_is-active/card__info_is-active.css';
+.card{
+    display: grid;
+    grid-template-columns: 58% 1fr;
+    column-gap: 5px;
+    margin-block-end: 72px;
+}

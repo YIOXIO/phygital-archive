@@ -1,0 +1,15 @@
+.card__info{
+    background-image: url('../../../img/card-img/background-card-info.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-block: 71px 0;
+    padding-inline: 35px;
+    position: relative;
+    border-radius: 0 40px 40px 0;
+    grid-column:2;
+    transition: border-radius .3s linear;
+
+}

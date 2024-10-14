@@ -1,0 +1,10 @@
+.section-title{
+    color: #1D1F20;
+    font-family: Unbounded;
+    font-size: clamp(1.75rem, 1.393rem + 1.786vw, 3rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 52.8px */
+    text-transform: uppercase;
+    margin-block-end: 64px;
+}

@@ -1,0 +1,14 @@
+.card__place{
+    color: #1D1F20;
+    text-align: center;
+    font-family: Gotham Pro;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61.176%; /* 61.176% */
+    border-radius: 4px;
+    background-color: #14E4F4;
+    padding-inline: 8px;
+    padding-block: 11px;
+    max-inline-size: fit-content;
+}
