@@ -1,3 +1,8 @@
+import 'swiper/css';
+import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+import Swiper from 'swiper';
+import { Navigation } from 'swiper/modules';
 import './index.css'
 
 
@@ -26,19 +31,29 @@ import './index.css'
         
 
     
-        buttons.forEach(button => {
-            button.addEventListener('click', function() {
-                const card = this.closest('.card');
-                const descriptionWrapper = card.querySelector('.card__description-wrapper');
-                const cardImg = card.querySelector('.card__img');
-                const cardInfo = card.querySelector('.card__info');
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            const card = this.closest('.card');
+            const descriptionWrapper = card.querySelector('.card__description-wrapper');
+            const cardImg = card.querySelector('.card__img');
+            const cardInfo = card.querySelector('.card__info');
 
 
-    
-                descriptionWrapper.classList.toggle('card__description-wrapper_appear');
-                button.classList.toggle('card__button_is-active');
-                cardImg.classList.toggle('card__img_is-active');
-                cardInfo.classList.toggle('card__info_is-active');
 
-            });
+            descriptionWrapper.classList.toggle('card__description-wrapper_appear');
+            button.classList.toggle('card__button_is-active');
+            cardImg.classList.toggle('card__img_is-active');
+            cardInfo.classList.toggle('card__info_is-active');
+
+        });
+    });
+
+
+
+        let swiper = new Swiper('.swiper-container', {
+            modules: [Navigation],
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });

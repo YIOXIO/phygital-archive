@@ -30,3 +30,17 @@
 .content{
     margin-block-end: 182px;
 }
+
+
+.swiper-container{
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #14e4f4;
+}
+
+.swiper-pagination-bullet{
+    background-color: #14e4f4;
+}
